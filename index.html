@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TikTok 연결</title>
+<style>
+body{margin:0;background:#0B0B0C;color:#EDEDED;font-family:system-ui,-apple-system,sans-serif;line-height:1.6}
+main{max-width:720px;margin:0 auto;padding:64px 20px}
+h1{color:#FFE14D;font-size:28px}
+code{display:block;background:#1A1A1C;padding:12px;border-radius:8px;word-break:break-all;color:#5CE1E6}
+</style>
+</head>
+<body>
+<main>
+<h1>TikTok 승인 완료</h1>
+<p>이 페이지의 <b>주소창 URL 전체</b>를 복사해서 터미널에 붙여넣으세요.</p>
+<code id="u"></code>
+</main>
+<script>
+try { document.getElementById('u').textContent = location.href; } catch (e) {}
+</script>
+</body>
+</html>
